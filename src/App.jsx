@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Home from "./Pages/Home/Home";
 import Productlisting from "./Pages/ProductListing/Productlisting";
 import ProductDetails from "./Pages/ProductsDetails/ProductDetails";
-import ProductsContent from "./components/Productscontent/productsContent";
+import ProductsContent from "./components/Productscontent/ProductsContent";
 import Dialog from "@mui/material/Dialog";
 import Login from "./Pages/Login/Login";
 import Register from "./components/Register/Register";

@@ -8,7 +8,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 import { IoIosGitCompare } from "react-icons/io";
 import { FaRegHeart } from "react-icons/fa";
 import Tooltip from '@mui/material/Tooltip';
-import Navigation from "./Navigation/navigation";
+import Navigation from "./Navigation/Navigation";
 import image1 from "../../assets/images/image1.png"
 
 import "./Topstrip.css";
