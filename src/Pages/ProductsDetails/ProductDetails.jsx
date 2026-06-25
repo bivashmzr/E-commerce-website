@@ -5,7 +5,7 @@ import ProductZoom from "../../components/ProductZoom/ProductZoom";
 import Rating from "@mui/material/Rating";
 import "./ProductsDetails.css";
 import Box from '@mui/material/Box';
-import ProductsContent from "../../components/ProductsContent/productsContent";
+import ProductsContent from "../../components/Productscontent/ProductsContent";
 import TextField from '@mui/material/TextField';
 
 import Datas from "../../Data/UserData"; 
