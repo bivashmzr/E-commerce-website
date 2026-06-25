@@ -1,0 +1,92 @@
+.zoomproductssliderthumb .swiper-slider{height:auto !important;
+}
+/* Make each slide a fixed size */
+/* Total slider height = 4 items */
+.zoomproductssliderthumb {
+  height: 350px;   
+}
+
+/* Each thumbnail */
+.zoomproductssliderthumb .swiper-slide {
+  height: 110px !important;
+  border-radius:8px;
+}
+
+/* Image wrapper */
+.zoomproductssliderthumb .items {
+  height: 100%;
+
+
+
+}
+
+/* Image fill */
+.zoomproductssliderthumb img {
+    
+  width: 100%;
+  height: 100%;
+  border-radius:8px;
+  object-fit: cover;
+  object-position:top;
+  display: block;
+}
+
+.iiz__zoom { background: rgba(255,255,255,.8) !important;}
+.iiz__zoom-img,
+.iiz__zoom {
+  background: transparent !important;
+}
+
+/* Kill InnerImageZoom white overlay */
+.iiz__zoom,
+.iiz__zoom-img {
+  background: transparent !important;
+    border-radius: 12px !important;
+}
+
+/* Prevent image fade */
+.iiz__img {
+  opacity: 1 !important;
+}
+
+/* Prevent thumbnail fade */
+.zoomproductssliderthumb .swiper-slide {
+  opacity: 1 !important;
+}
+
+/* Remove zoom button / hint */
+.iiz__btn,
+.iiz__hint {
+  display: none !important;
+}
+
+
+
+.activeThumb {
+  opacity: 1;
+}
+
+.inactiveThumb {
+  opacity: 0.3;
+}
+
+.zoomproductssliderthumb img {
+  transition: opacity 0.3s ease;
+}
+
+
+// New Css for the border radius.
+.iiz__img {
+  border-radius: 12px !important;
+}
+
+/* Zoomed image */
+.iiz__zoom-img {
+  border-radius: 12px !important;
+}
+
+/* Container also needs rounding */
+.iiz {
+  border-radius: 12px !important;
+  overflow: hidden;
+}

@@ -1,0 +1,38 @@
+.link {
+  color: black;
+  
+}
+
+.link:hover {
+  color: red !important;
+  
+}
+.nav li:hover .submenue{ visibility: hidden;}
+.nav li:hover .submenue{ opacity:1 !important; visibility:inherit; top:100%;}
+
+
+.submenue {
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease;
+  z-index:1000;
+}
+
+nav li:hover .submenue {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+
+.submenue li .submenue{
+    top:0% !important;
+    left:120%;
+    opacity:0 !important;
+
+}
+.submenue li:hover .submenue{
+    opacity:1 !important;
+    left:100%;
+
+
+}

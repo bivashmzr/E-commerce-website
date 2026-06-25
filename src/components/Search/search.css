@@ -1,0 +1,16 @@
+.searchBox input::placeholder{
+  color: #373737;
+
+}
+.searchBox input{
+    padding:15px;
+}
+.searchBox{
+display:flex;
+align-items:center;
+
+
+      
+
+
+}

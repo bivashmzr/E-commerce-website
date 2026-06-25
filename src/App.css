@@ -1,0 +1,11 @@
+.Cartpannel .MuiPaper-root{
+    width:500px;
+    overflow:hidden;
+}
+
+@media (max-width: 767px) {
+    .Cartpannel .MuiPaper-root{
+    width:300px;
+    overflow:hidden;
+}
+}

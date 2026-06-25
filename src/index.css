@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+    
+  
+  *{
+  margin:0;
+  padding:0;
+  font-family: "Montserrat", sans-serif;
+}
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee-mobile {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+/* Disable animation on tablets and laptops */
+@media (min-width: 768px) {
+  .animate-marquee-mobile {
+    animation: none;
+    transform: translateX(0);
+    white-space: normal;
+  }
+}
