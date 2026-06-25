@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Sidebar from '../../components/Sidebar/sidebar';
+import Sidebar from '../../components/Sidebar/SideBar';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import { Link } from 'react-router-dom'; 
 import { IoGridSharp } from "react-icons/io5";

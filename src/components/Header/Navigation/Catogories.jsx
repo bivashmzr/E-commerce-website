@@ -2,7 +2,7 @@ import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import { IoMdClose } from "react-icons/io";
 
-import "./navigation.css";
+import "./Navigation.css";
 import CategoryCollapse from "../../CategoryCollapse/CategoryCollapse";
 
 const Catogories = (props) => {

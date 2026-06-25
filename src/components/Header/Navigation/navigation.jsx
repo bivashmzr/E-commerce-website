@@ -4,7 +4,7 @@ import { CgMenuLeftAlt } from "react-icons/cg";
 import { IoIosArrowDown } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { GoRocket } from "react-icons/go";
-import Catogories from "./catogories";
+import Catogories from "./Catogories";
 import "./Navigation.css";
 
 const Navigation = (props) => {
